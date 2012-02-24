@@ -1,4 +1,4 @@
-Config { font = "xft:Inconsolata:size=10"
+Config { font = "xft:DejaVu LGC Sans Mono:size=8"
        , bgColor = "#111111"
        , fgColor = "#ffffff"
        , position = TopSize C 100 18
