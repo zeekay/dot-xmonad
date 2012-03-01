@@ -230,11 +230,11 @@ main = do
         , workspaces         = myWorkspaces
         , keys               = myKeys
         , mouseBindings      = myMouseBindings
-        , layoutHook         = smartBorders $ myLayout
-        , manageHook         = manageHook $ gnomeConfig
+        , layoutHook         = smartBorders myLayout
+        , manageHook         = manageHook gnomeConfig
         , startupHook        = do
             setWMName "LG3D"
             spawn "nm-applet"
-            spawn "gnome-sound-applet"
-            spawn "trayer --edge top --align right --widthtype request --margin 120 --height 18 --padding 1 --transparent true --tint 0x111111 --alpha 0 &"
+            -- spawn "gnome-sound-applet"
+            spawn "trayer --SetDockType true --SetPartialStrut true --edge top --align right --widthtype request --margin 120 --height 18 --padding 1 --transparent true --tint 0x111111 --alpha 0"
     }
