@@ -1,0 +1,6 @@
+backup $HOME/.$module
+backup $HOME/.$xmobarrc
+backup $HOME/.$xinitrc
+ln -s $module_path $HOME/.$module
+ln -s $module_path/xmobarrc $HOME/.xmobarrc
+ln -s $module_path/xinitrc $HOME/.xinitrc
