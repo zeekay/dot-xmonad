@@ -1,6 +1,5 @@
-# dot-xmonad
-Default [xmonad][xmonad] dotfiles provided by [ellipsis][ellipsis] and my
-personal setup.
+# zeekay/dot-xmonad
+My [xmonad](xmonad) configuration, comptaible with [ellipsis](ellipsis).
 
 ## Features
 Deep integration with Gnome 3, vim-style keybindings.
@@ -9,7 +8,7 @@ Deep integration with Gnome 3, vim-style keybindings.
 Clone and symlink or install with [ellipsis][ellipsis]:
 
 ```
-$ ellipsis install xmonad
+$ ellipsis install zeekay/dot-xmonad
 ```
 
 [ellipsis]: http://ellipsis.sh

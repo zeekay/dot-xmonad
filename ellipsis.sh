@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
+#
+# zeekay/dot-xmonad
+# My xmonad configuration.
 
-mod.install() {
+pkg.install() {
     ellipsis.backup ~/.module
     ellipsis.backup ~/.xmobarrc
     ellipsis.backup ~/.xinitrc
-    ln -s $mod_path ~/.xmonad
-    ln -s $mod_path/xmobarrc ~/.xmobarrc
-    ln -s $mod_path/xinitrc ~/.xinitrc
+    ln -s $PKG_PATH ~/.xmonad
+    ln -s $PKG_PATH/xmobarrc ~/.xmobarrc
+    ln -s $PKG_PATH/xinitrc ~/.xinitrc
 }
