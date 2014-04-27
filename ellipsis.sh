@@ -4,7 +4,7 @@
 # My xmonad configuration.
 
 pkg.install() {
-    ellipsis.backup ~/.module
+    ellipsis.backup ~/.xmonad
     ellipsis.backup ~/.xmobarrc
     ellipsis.backup ~/.xinitrc
     ln -s $PKG_PATH ~/.xmonad
